@@ -1,0 +1,45 @@
+body{
+  background: black;
+}
+
+.wrapper {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+}
+
+.red {
+  width: 80px;
+  height: 80px;
+  background: orangered;
+}
+
+.orange {
+  width: 60px;
+  height: 60px;
+  background: orange;
+}
+
+.yellow {
+  width: 45px;
+  height: 45px;
+  background: gold;
+}
+
+.white {
+  width: 35px;
+  height: 35px;
+  background: lightyellow;
+}
+
+.flame-wrapper{
+  position: relative;
+}
+
+.flame {
+  bottom: 0;
+  position: absolute;
+  border-radius: 50% 0% 50% 50%;
+}
